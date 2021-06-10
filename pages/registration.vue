@@ -1,0 +1,100 @@
+<template>
+  <section class="section">
+    <div class="columns is-centered">
+      <div class="column is-5-tablet is-4-desktop is-4-widescreen">
+        <form action="" class="box mb-6 custom-login">
+          <h1 class="brand-title">Вход в личный кабинет пассажира</h1>
+          <div class="field">
+            <label for="" class="label custom-label">Ваше имя</label>
+            <div class="control">
+              <input
+                type="name"
+                placeholder="Введите имя"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="" class="label custom-label">Ваша фамилия</label>
+            <div class="control">
+              <input
+                type="surname"
+                placeholder="Введите Фамилию"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="" class="label custom-label"
+              >Адрес электронной почты</label
+            >
+            <div class="control">
+              <input
+                type="email"
+                placeholder="Введите адрес электронной почты"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="" class="label custom-label"
+              >Адрес электронной почты</label
+            >
+            <div class="control">
+              <input
+                type="email"
+                placeholder="Введите адрес электронной почты"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="" class="label custom-label">Пароль</label>
+            <div class="control">
+              <input
+                type="password"
+                placeholder="Введите пароль"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="" class="label custom-label">Повторите пароль</label>
+            <div class="control">
+              <input
+                type="password"
+                placeholder="Введите пароль"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="field">
+            <b-button type="is-primary" expanded>Регистрация</b-button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</template>
+<style>
+.custom-login {
+  background: #02a8b6;
+  color: #fafafa;
+}
+.brand-title {
+  color: #fafafa;
+  font-size: 24px;
+}
+.custom-label {
+  color: #fafafa;
+}
+.mb-6 {
+  margin-bottom: 10em;
+}
+</style>
