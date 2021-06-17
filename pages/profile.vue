@@ -1,16 +1,19 @@
 <template>
-  <section>
+  <section class="section">
     <div class="columns mt-5 ml-5 mr-5">
       <div class="column is-6">
         <b-field label="Имя пользователя (логин)">
-          <b-input v-model="Логин"></b-input>
-        </b-field>
+<div class="control">
+  <input class="input" type="text" placeholder="Иван Иванов" readonly>
+</div>        </b-field>
         <b-field label="Телефон">
-          <b-input v-model="телефон"></b-input>
-        </b-field>
+<div class="control">
+  <input class="input" type="text" placeholder="+7999 999 99" readonly>
+</div>        </b-field>
         <b-field label="Пароль">
-          <b-input v-model="Пароль"></b-input>
-        </b-field>
+<div class="control">
+  <input class="input" type="text" placeholder="************" readonly>
+</div>        </b-field>
       </div>
       <div class="column is-4 is-offset-2">
         <div class="card">
@@ -42,12 +45,3 @@
     </div>
   </section>
 </template>
-<style lang="css">
-@font-face {
-  font-family: "Montserrat";
-  src: url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic");
-}
-.label {
-  color: gray;
-}
-</style>

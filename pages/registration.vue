@@ -40,19 +40,6 @@
             </div>
           </div>
           <div class="field">
-            <label for="" class="label custom-label"
-              >Адрес электронной почты</label
-            >
-            <div class="control">
-              <input
-                type="email"
-                placeholder="Введите адрес электронной почты"
-                class="input"
-                required
-              />
-            </div>
-          </div>
-          <div class="field">
             <label for="" class="label custom-label">Пароль</label>
             <div class="control">
               <input
@@ -82,19 +69,3 @@
     </div>
   </section>
 </template>
-<style>
-.custom-login {
-  background: #02a8b6;
-  color: #fafafa;
-}
-.brand-title {
-  color: #fafafa;
-  font-size: 24px;
-}
-.custom-label {
-  color: #fafafa;
-}
-.mb-6 {
-  margin-bottom: 10em;
-}
-</style>

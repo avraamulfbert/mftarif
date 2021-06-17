@@ -1,57 +1,32 @@
 <template>
-  <section class="section">
-    <div class="columns is-centered">
-      <div class="column is-5-tablet is-4-desktop is-3-widescreen">
-        <form action="" class="box custom-login">
-          <h1 class="brand-title">Вход в личный кабинет пассажира</h1>
-          <div class="field">
-            <label for="" class="label custom-label"
-              >Адрес электронной почты</label
-            >
-            <div class="control has-icons-left">
-              <input
-                type="email"
-                placeholder="Введите адрес электронной почты"
-                class="input"
-                required
-              />
-              <span class="icon is-small is-left">
-                <i class="fa fa-envelope"></i>
-              </span>
+  <section class="section"> 
+    <div class=" columms is-centered">
+      <div class="column is-narrow">
+      <img class="cards-img" src="../static/podorozhnik-ill-group.png">
+    </div>
+    </div>
+    <div class="container custom-container-width">
+
+      <div class="columns is-multiline">
+        <div class="column is-8">
+          <a href="/pay">
+            <div class="box card-pay add-money-ticket transition">
+              <div class="mb-4 is-flex is-align-items-center">
+                <p class="title is-3">Пополнить<br>без регистрации</p>
+              </div>
             </div>
-          </div>
-          <div class="field">
-            <label for="" class="label custom-label">Пароль</label>
-            <div class="control has-icons-left">
-              <input
-                type="password"
-                placeholder="Введите пароль"
-                class="input"
-                required
-              />
-              <span class="icon is-small is-left">
-                <i class="fa fa-lock"></i>
-              </span>
+          </a>
+        </div>
+        <div class="column is-4">
+          <a href="/fiskal-check">
+            <div class="box card-pay add-receipt-ticket transition">
+              <div class="mb-4 is-flex is-align-items-center">
+                <p class="title is-3">Получить<br> фискальный чек</p>
+              </div>
             </div>
-          </div>
-          <div class="field">
-            <b-button type="is-primary" expanded>Войти</b-button>
-          </div>
-        </form>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 </template>
-<style>
-.custom-login {
-  background: #02a8b6;
-  color: #fafafa;
-}
-.brand-title {
-  color: #fafafa;
-  font-size: 24px;
-}
-.custom-label {
-  color: #fafafa;
-}
-</style>

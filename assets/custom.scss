@@ -1,0 +1,182 @@
+body {
+	background: #E3F7FF;
+}
+#custom-navbar-item {
+	&:hover {
+		background: #02a8b6;
+		color: #ffff;
+	}
+}
+.navbar-custom {
+	height: 4em;
+	border-color: #707070;
+	background: #02a8b6;
+}
+.navbar-item {
+	color: #fafafa;
+}
+.navbar-link {
+	color: #fafafa;
+}
+.footer {
+	background: #02a8b6;
+	color: #fafafa;
+	width: 100%;
+	height: 4em;
+	padding: 0 !important;
+}
+.brand-title {
+	color: #fafafa;
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+}
+.head-img {
+	width: 100%;
+	height: 12em;
+}
+.navbar-end {
+	background: #29B2C2;
+}
+.b-tabs {
+	background: #fafafa;
+	margin-bottom: 0;
+}
+.tab-content {
+	background: #edf2f8;
+}
+.dropdown {
+	width: 100%;
+}
+.dropdown-trigger {
+	width: 100%;
+}
+.dropdown-menu {
+	width: 100%;
+}
+.field-custom-width {
+	width: 40%;
+}
+.title {
+	font-family: "Montserrat", sans-serif;
+	font-size: bold;
+	color: #fefefe;
+}
+.title.is-3 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 22px;
+}
+.is-modal {
+    background: #02a8b6;
+}
+.table {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: #6b6969;
+	thead {
+		background: #00718C;
+		td {
+			color: #fafafa;
+		}
+		th {
+			color: #fafafa;
+            width: 100%;
+		}
+	}
+}
+.card-table-content-history {
+	margin-top: 1em;
+}
+.box-buy-ticket {
+	height: 14em;
+}
+.tbody {
+	font-size: 18px;
+}
+.transition {
+	transition: 0.2s;
+}
+.card-pay {
+	&:hover {
+		z-index: 9999;
+		margin-top: -0.3em;
+	}
+	width: 310px;
+	height: 159px;
+	margin-bottom: 2em;
+	border-radius: 25px;
+}
+.history-transport {
+	background-image: url("../static/history-transport.png");
+}
+.history-money-traffic {
+	background-image: url("../static/history-money-traffic.png");
+}
+.custom-login {
+	background: #02a8b6;
+	color: #fafafa;
+}
+.label {
+	color: gray;
+}
+.custom-label {
+	color: #fafafa;
+}
+.custom-p {
+    color: #fafafa;
+}
+.button.is-primary.is-outlined {
+	background: #fafafa;
+}
+
+.mb-6 {
+	margin-bottom: 10em;
+}
+.mt-7 {
+	margin-top: 7em;
+}
+.columns {
+	margin-left: 0;
+	margin-right: 0;
+}
+.is-outline {
+	color: #367bf5;
+}
+.card-table-content {
+	margin-top: -10em;
+	background: #fefefe;
+}
+.add-money-ticket {
+	background-image: url("../static/add-money-ticket.png");
+}
+.add-receipt-ticket {
+	background-image: url("../static/receipt.png");
+}
+.e-ticket {
+    background-image: url("../static/e-ticket.png");
+}
+.bank-card {
+    background-image: url("../static/bank-card.png");
+}
+.oneuse-ticket {
+    background-image: url("../static/oneuse-ticket.png");
+}
+.cards-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (min-width: 1216px) {
+	.container {
+		&:not(.is-max-desktop) {
+			&:not(.is-max-widescreen) {
+				max-width: 960px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 800px) {
+    .head-img {
+        display: none;
+    }
+}

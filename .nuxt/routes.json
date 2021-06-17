@@ -1,0 +1,100 @@
+[
+  {
+    "name": "add-ticket",
+    "path": "/add-ticket",
+    "component": "/home/valery/project/mftarif/pages/add-ticket.vue",
+    "chunkName": "pages/add-ticket",
+    "_name": "_56aee2a4"
+  },
+  {
+    "name": "apply",
+    "path": "/apply",
+    "component": "/home/valery/project/mftarif/pages/apply.vue",
+    "chunkName": "pages/apply",
+    "_name": "_4636f432"
+  },
+  {
+    "name": "bank-page",
+    "path": "/bank-page",
+    "component": "/home/valery/project/mftarif/pages/bank-page.vue",
+    "chunkName": "pages/bank-page",
+    "_name": "_5e71a544"
+  },
+  {
+    "name": "fiskal-check",
+    "path": "/fiskal-check",
+    "component": "/home/valery/project/mftarif/pages/fiskal-check.vue",
+    "chunkName": "pages/fiskal-check",
+    "_name": "_0a16ffad"
+  },
+  {
+    "name": "history-money-transition",
+    "path": "/history-money-transition",
+    "component": "/home/valery/project/mftarif/pages/history-money-transition.vue",
+    "chunkName": "pages/history-money-transition",
+    "_name": "_66d79d07"
+  },
+  {
+    "name": "history-transport",
+    "path": "/history-transport",
+    "component": "/home/valery/project/mftarif/pages/history-transport.vue",
+    "chunkName": "pages/history-transport",
+    "_name": "_f0971a18"
+  },
+  {
+    "name": "information",
+    "path": "/information",
+    "component": "/home/valery/project/mftarif/pages/information.vue",
+    "chunkName": "pages/information",
+    "_name": "_248d7420"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/valery/project/mftarif/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_5b74eaad"
+  },
+  {
+    "name": "pay",
+    "path": "/pay",
+    "component": "/home/valery/project/mftarif/pages/pay.vue",
+    "chunkName": "pages/pay",
+    "_name": "_0cdf4f6c"
+  },
+  {
+    "name": "pay-bank-cards",
+    "path": "/pay-bank-cards",
+    "component": "/home/valery/project/mftarif/pages/pay-bank-cards.vue",
+    "chunkName": "pages/pay-bank-cards",
+    "_name": "_556d0243"
+  },
+  {
+    "name": "pay-one-ticket",
+    "path": "/pay-one-ticket",
+    "component": "/home/valery/project/mftarif/pages/pay-one-ticket.vue",
+    "chunkName": "pages/pay-one-ticket",
+    "_name": "_2ee81d84"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/home/valery/project/mftarif/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_4d11c9ed"
+  },
+  {
+    "name": "registration",
+    "path": "/registration",
+    "component": "/home/valery/project/mftarif/pages/registration.vue",
+    "chunkName": "pages/registration",
+    "_name": "_69c58825"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/valery/project/mftarif/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_dc6570d4"
+  }
+]

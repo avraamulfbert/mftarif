@@ -1,5 +1,5 @@
 <template>
-  <section class="ml-5">
+  <section class="section">
     <b-collapse
       class="card field-custom-width mt-5 mb-5"
       animation="slide"
@@ -41,19 +41,6 @@
     </div>
   </section>
 </template>
-<style lang="css">
-.field-custom-width {
-  width: 40%;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic");
-}
-.title {
-  font-family: "Montserrat", sans-serif;
-  font-size: bold;
-}
-</style>
 <script>
 export default {
   data() {
