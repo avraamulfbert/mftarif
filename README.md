@@ -1,8 +1,21 @@
 # mftarif-lk
-# mftarif-lk
-
 ## Build Setup
-
+**Pages**
+/
+/login
+/registration
+/pay
+/pay-bank-cards
+/pay-one-ticket
+/profile
+/history-transport
+/history-money-transition
+/apply
+/add-ticket
+/fiskal-check
+/information
+/bank-page
+**Pages**
 ```bash
 # install dependencies
 $ npm install
@@ -17,5 +30,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
