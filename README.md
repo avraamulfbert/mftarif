@@ -1,6 +1,6 @@
 # mftarif-lk
 ## Build Setup
-**Pages**
+### Pages
 /
 /login
 /registration
@@ -15,7 +15,6 @@
 /fiskal-check
 /information
 /bank-page
-**Pages**
 ```bash
 # install dependencies
 $ npm install
