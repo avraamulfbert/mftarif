@@ -28,7 +28,7 @@
       >с порядком пополнения ресурса , правилами пополнения и возрата
       согласен</b-checkbox
     >
-    <b-field class="mt-5 field-custom-width">
+    <b-field class="mt-5 bank-field-custom">
       <b-input placeholder="Введите сумму пополнения ЕЭБ"></b-input
       ><b-button type="is-primary">Оплатить</b-button>
     </b-field>

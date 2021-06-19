@@ -1,32 +1,38 @@
+$mainblue:#02a8b6;
+$secondblue:#29B2C2;
+$white:#fefefe;
+$primary:#00718C;
+$secondwhite:#edf2f8;
+$outline: #367bf5;
 body {
 	background: #E3F7FF;
 }
 #custom-navbar-item {
 	&:hover {
-		background: #02a8b6;
-		color: #ffff;
+		background: $mainblue;
+		color: $white;
 	}
 }
 .navbar-custom {
 	height: 4em;
 	border-color: #707070;
-	background: #02a8b6;
+	background: $mainblue;
 }
 .navbar-item {
-	color: #fafafa;
+	color: $white;
 }
 .navbar-link {
-	color: #fafafa;
+	color: $white;
 }
 .footer {
-	background: #02a8b6;
-	color: #fafafa;
+	background: $mainblue;
+	color: $white;
 	width: 100%;
 	height: 4em;
 	padding: 0 !important;
 }
 .brand-title {
-	color: #fafafa;
+	color: $white;
 	font-size: 24px;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
@@ -36,14 +42,14 @@ body {
 	height: 12em;
 }
 .navbar-end {
-	background: #29B2C2;
+	background: $secondblue;
 }
 .b-tabs {
-	background: #fafafa;
+	background: $white;
 	margin-bottom: 0;
 }
 .tab-content {
-	background: #edf2f8;
+	background:$secondwhite ;
 }
 .dropdown {
 	width: 100%;
@@ -57,29 +63,32 @@ body {
 .field-custom-width {
 	width: 40%;
 }
+.taginput .taginput-container.is-focusable, .textarea, .input {
+	width: 31em;
+}
 .title {
 	font-family: "Montserrat", sans-serif;
 	font-size: bold;
-	color: #fefefe;
+	color: $white;
 }
 .title.is-3 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 22px;
 }
 .is-modal {
-    background: #02a8b6;
+    background: $mainblue;
 }
 .table {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	color: #6b6969;
 	thead {
-		background: #00718C;
+		background:$primary;
 		td {
-			color: #fafafa;
+			color:$white;
 		}
 		th {
-			color: #fafafa;
+			color:$white;
             width: 100%;
 		}
 	}
@@ -113,20 +122,20 @@ body {
 	background-image: url("../static/history-money-traffic.png");
 }
 .custom-login {
-	background: #02a8b6;
-	color: #fafafa;
+	background:$mainblue;
+	color:$white;
 }
 .label {
 	color: gray;
 }
 .custom-label {
-	color: #fafafa;
+	color:$white;
 }
 .custom-p {
-    color: #fafafa;
+    color:$white;
 }
 .button.is-primary.is-outlined {
-	background: #fafafa;
+	background:$white;
 }
 
 .mb-6 {
@@ -140,11 +149,11 @@ body {
 	margin-right: 0;
 }
 .is-outline {
-	color: #367bf5;
+	color:$outline;
 }
 .card-table-content {
 	margin-top: -10em;
-	background: #fefefe;
+	background:$white;
 }
 .add-money-ticket {
 	background-image: url("../static/add-money-ticket.png");
