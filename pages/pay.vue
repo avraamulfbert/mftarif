@@ -46,7 +46,7 @@
           <tr>
             <th><abbr title="Number-client">Номер носителя</abbr></th>
             <th><abbr title="Ticket-type">Тип билета</abbr></th>
-            <th><abbr title="Recource">Ресурс, руб</abbr></th>
+            <th><abbr title="Recource">Ресурс</abbr></th>
             <th><abbr title="Summ">Сумма пополнения</abbr></th>
             <th><abbr title="Description">Описание</abbr></th>
             <th><abbr title="Action-button-summ"></abbr></th>
@@ -56,7 +56,7 @@
           <tr>
             <th><abbr title="Number-client">Номер носителя</abbr></th>
             <th><abbr title="Ticket-type">Тип билета</abbr></th>
-            <th><abbr title="Recource">Ресурс, руб</abbr></th>
+            <th><abbr title="Recource">Ресурс</abbr></th>
             <th><abbr title="Summ">Сумма пополнения</abbr></th>
             <th><abbr title="Description">Описание</abbr></th>
             <th><abbr title="Action-button-summ"></abbr></th>
@@ -65,9 +65,9 @@
         <tbody>
           <tr>
             <td>7892 4543 2834 7347 8234 7472 84</td>
-            <td>ЕЭБ (единый электронный билет)</td>
-            <td>92</td>
-            <td>198</td>
+            <td>ЕЭБ</td>
+            <td>92₽</td>
+            <td>198₽</td>
             <td>ЕЭБ</td>
             <td>
               <div class="py-5 has-text-centered">
@@ -82,9 +82,9 @@
           </tr>
           <tr>
             <td>7892 4543 2834 7347 8234 7472 84</td>
-            <td>ЕЭБ (единый электронный билет)</td>
-            <td>92</td>
-            <td>198</td>
+            <td>ЕЭБ</td>
+            <td>92₽</td>
+            <td>198₽</td>
             <td>ЕЭБ</td>
             <td>
               <div class="py-5 has-text-centered">
@@ -99,9 +99,9 @@
           </tr>
           <tr>
             <td>7892 4543 2834 7347 8234 7472 84</td>
-            <td>ЕЭБ (единый электронный билет)</td>
-            <td>92</td>
-            <td>198</td>
+            <td>ЕЭБ</td>
+            <td>92₽</td>
+            <td>198₽</td>
             <td>ЕЭБ</td>
             <td>
               <div class="py-5 has-text-centered">
@@ -116,9 +116,9 @@
           </tr>
           <tr class="is-info">
             <td>7892 4543 2834 7347 8234 7472 84</td>
-            <td>ЕЭБ (единый электронный билет)</td>
-            <td>92</td>
-            <td>198</td>
+            <td>ЕЭБ</td>
+            <td>92₽</td>
+            <td>198₽</td>
             <td>ЕЭБ</td>
             <td>
               <div class="py-5 has-text-centered">

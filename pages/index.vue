@@ -5,8 +5,7 @@
       <img class="cards-img" src="../static/podorozhnik-ill-group.png">
     </div>
     </div>
-    <div class="container custom-container-width">
-
+    <div class="container">
       <div class="columns is-multiline">
         <div class="column is-8">
           <a href="/pay">
@@ -28,5 +27,9 @@
         </div>
       </div>
     </div>
-  </section>
+<span class="icon-text">
+    <b-icon icon="chevron-left"></b-icon>
+  <a href="http://orgp.spb.ru/">Назад</a>
+</span>  
+</section>
 </template>

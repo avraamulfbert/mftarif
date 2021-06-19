@@ -64,7 +64,7 @@
           <tr>
             <td>7892 4543 2834 7347 8234 7472 84</td>
             <td>Разовый билет</td>
-            <td>198</td>
+            <td>198₽</td>
             <td>РБ</td>
             <td>
               <div class="py-5 has-text-centered">
@@ -80,7 +80,7 @@
           <tr>
             <td>7892 4543 2834 7347 8234 7472 84</td>
             <td>Разовый билет</td>
-            <td>198</td>
+            <td>198₽</td>
             <td>РБ</td>
             <td>
               <div class="py-5 has-text-centered">
@@ -96,7 +96,7 @@
           <tr>
             <td>7892 4543 2834 7347 8234 7472 84</td>
             <td>Разовый билет</td>
-            <td>198</td>
+            <td>198₽</td>
             <td>РБ</td>
             <td>
               <div class="py-5 has-text-centered">
@@ -112,7 +112,7 @@
           <tr class="is-info">
             <td>7892 4543 2834 7347 8234 7472 84</td>
             <td>Разовый билет</td>
-            <td>198</td>
+            <td>198₽</td>
             <td>РБ</td>
             <td>
               <div class="py-5 has-text-centered">
