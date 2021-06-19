@@ -56,6 +56,27 @@
     "_name": "_5b74eaad"
   },
   {
+    "name": "notification-standart",
+    "path": "/notification-standart",
+    "component": "/home/valery/project/mftarif/pages/notification-standart.vue",
+    "chunkName": "pages/notification-standart",
+    "_name": "_a0aebc9a"
+  },
+  {
+    "name": "notification-success",
+    "path": "/notification-success",
+    "component": "/home/valery/project/mftarif/pages/notification-success.vue",
+    "chunkName": "pages/notification-success",
+    "_name": "_30e9288d"
+  },
+  {
+    "name": "notification-warning",
+    "path": "/notification-warning",
+    "component": "/home/valery/project/mftarif/pages/notification-warning.vue",
+    "chunkName": "pages/notification-warning",
+    "_name": "_5fd623a6"
+  },
+  {
     "name": "pay",
     "path": "/pay",
     "component": "/home/valery/project/mftarif/pages/pay.vue",

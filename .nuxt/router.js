@@ -12,6 +12,9 @@ const _66d79d07 = () => interopDefault(import('../pages/history-money-transition
 const _f0971a18 = () => interopDefault(import('../pages/history-transport.vue' /* webpackChunkName: "pages/history-transport" */))
 const _248d7420 = () => interopDefault(import('../pages/information.vue' /* webpackChunkName: "pages/information" */))
 const _5b74eaad = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _a0aebc9a = () => interopDefault(import('../pages/notification-standart.vue' /* webpackChunkName: "pages/notification-standart" */))
+const _30e9288d = () => interopDefault(import('../pages/notification-success.vue' /* webpackChunkName: "pages/notification-success" */))
+const _5fd623a6 = () => interopDefault(import('../pages/notification-warning.vue' /* webpackChunkName: "pages/notification-warning" */))
 const _0cdf4f6c = () => interopDefault(import('../pages/pay.vue' /* webpackChunkName: "pages/pay" */))
 const _556d0243 = () => interopDefault(import('../pages/pay-bank-cards.vue' /* webpackChunkName: "pages/pay-bank-cards" */))
 const _2ee81d84 = () => interopDefault(import('../pages/pay-one-ticket.vue' /* webpackChunkName: "pages/pay-one-ticket" */))
@@ -62,6 +65,18 @@ export const routerOptions = {
     path: "/login",
     component: _5b74eaad,
     name: "login"
+  }, {
+    path: "/notification-standart",
+    component: _a0aebc9a,
+    name: "notification-standart"
+  }, {
+    path: "/notification-success",
+    component: _30e9288d,
+    name: "notification-success"
+  }, {
+    path: "/notification-warning",
+    component: _5fd623a6,
+    name: "notification-warning"
   }, {
     path: "/pay",
     component: _0cdf4f6c,
