@@ -45,7 +45,7 @@
         <thead>
           <tr>
             <th><abbr title="Number-client">Номер носителя</abbr></th>
-            <th><abbr title="Ticket-type">Тип билета</abbr></th>
+            <th><abbr title="Card-type">Банковская карта</abbr></th>
             <th><abbr title="Summ">Сумма пополнения</abbr></th>
             <th><abbr title="Description">Описание</abbr></th>
             <th><abbr title="Action-button-summ"></abbr></th>
@@ -54,7 +54,7 @@
         <tfoot>
           <tr>
             <th><abbr title="Number-client">Номер носителя</abbr></th>
-            <th><abbr title="Ticket-type">Банковская карта</abbr></th>
+            <th><abbr title="Card-type">Банковская карта</abbr></th>
             <th><abbr title="Summ">Сумма пополнения</abbr></th>
             <th><abbr title="Description">Описание</abbr></th>
             <th><abbr title="Action-button-summ"></abbr></th>
